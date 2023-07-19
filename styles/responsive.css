@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
   .banner-img {
     width: 50%;
@@ -27,15 +27,18 @@
 }
 
 @media screen and (max-width: 576px) {
-  html {
-    font-size: 10px;
-  }
   .nav,
-  .menu,
-  .banner {
+  .menu{
     flex-direction: column;
+  }
+  .banner{
+    flex-direction: column-reverse;
   }
   .banner-img {
     width: 90vw;
   }
+  .banner-img img{
+    height: 360px;
+  }
 }
+
