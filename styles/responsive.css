@@ -28,7 +28,8 @@
 
 @media screen and (max-width: 576px) {
   .nav,
-  .menu{
+  .menu,
+  .play{
     flex-direction: column;
   }
   .banner{
@@ -39,6 +40,19 @@
   }
   .banner-img img{
     height: 360px;
+  }
+  .play{
+    text-align: center;
+    gap: 40px;
+  }
+  .games{
+    width: 260px;
+  }
+  .game-2{
+    
+    width: 80px;
+    margin-top: -100px;
+    margin-left: -220px;
   }
 }
 

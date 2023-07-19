@@ -215,3 +215,32 @@ h4 {
   font-weight: 500;
   line-height: 30px;
 }
+
+/* Play Section */
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 60px 0px;
+}
+
+.play-description{
+  max-width: 360px;
+}
+
+.games{
+  width: 634px;
+}
+
+.game-1{
+  width: 100%;
+}
+
+.game-2{
+  position: relative;
+  width: 150px;
+  margin-top: -130px;
+  margin-left: -60px;
+}
