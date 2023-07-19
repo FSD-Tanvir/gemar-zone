@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .menu {
+    padding-inline-start: 0;
+  }
+  .banner-img img {
+    height: 360px;
+    width: 100%;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .banner-img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .nav,
+  .menu,
+  .banner {
+    flex-direction: column;
+  }
+  .banner-img {
+    width: 90vw;
+  }
+}

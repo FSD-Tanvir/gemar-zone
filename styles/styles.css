@@ -1,0 +1,177 @@
+/*==================================
+
+Template Name: Gamer
+Author: Tanvir
+Author URI: 
+Version: 1.0
+Description: An Awesome Game Zone.
+Support: tanvirfsd1@gmail.com
+
+==================================*/
+
+/*==================================
+
+CSS INDEX
+---------
+1. Google Font
+2. Common Css 
+3. Reusable Component
+4. Header Section 
+5. Navbar Section
+6. Banner Section  
+7.   
+8.  
+9.  
+10. 
+
+==================================*/
+
+/* 1. Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* 2. Common Css */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Reusable Component */
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.title-primary {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+span {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 4. Header Section */
+
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* 5. Navbar Section */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  list-style-type: none;
+}
+
+.menu a {
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.social-links {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 16px 20px;
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.social-links i {
+  padding-left: 16px;
+}
+
+/* 6. Banner Section  */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+h4 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.goat {
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  width: fit-content;
+}
+
+.banner-info p {
+  /* color: ;#34C64 ; */
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in,
+.go-rogue {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 21px 40px;
+  border: none;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  margin-top: 20px;
+}
+
+.go-rogue {
+  background: #4ec5f7;
+}
+
+.banner-img {
+  width: 50%;
+  text-align: center;
+}
+
+.banner-img img {
+  height: 580px;
+  width: 100%;
+  margin-bottom: 0;
+}
