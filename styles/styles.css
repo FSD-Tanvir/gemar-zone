@@ -138,7 +138,7 @@ h4 {
 }
 
 .banner-info p {
-  /* color: ;#34C64 ; */
+  color: #534C64 ;
   font-family: Work Sans;
   font-size: 1.25rem;
   font-style: normal;
@@ -174,4 +174,44 @@ h4 {
   height: 580px;
   width: 100%;
   margin-bottom: 0;
+}
+
+/* Video Section */
+
+.videos{
+  padding: 100px 0;
+}
+
+.videos h1{
+  text-align: center;
+}
+
+.videos>p{
+  color: #534C64;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px; 
+}
+
+.video-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.video {
+  width: 230px;
+}
+
+.video img{
+  width: 100%;
+}
+
+.video p{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
 }
