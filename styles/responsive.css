@@ -29,30 +29,28 @@
 @media screen and (max-width: 576px) {
   .nav,
   .menu,
-  .play{
+  .play {
     flex-direction: column;
   }
-  .banner{
+  .banner {
     flex-direction: column-reverse;
   }
   .banner-img {
     width: 90vw;
   }
-  .banner-img img{
+  .banner-img img {
     height: 360px;
   }
-  .play{
+  .play {
     text-align: center;
     gap: 40px;
   }
-  .games{
+  .games {
     width: 260px;
   }
-  .game-2{
-    
+  .game-2 {
     width: 80px;
     margin-top: -100px;
     margin-left: -220px;
   }
 }
-

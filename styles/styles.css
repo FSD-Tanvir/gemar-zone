@@ -138,7 +138,7 @@ h4 {
 }
 
 .banner-info p {
-  color: #534C64 ;
+  color: #534c64;
   font-family: Work Sans;
   font-size: 1.25rem;
   font-style: normal;
@@ -178,22 +178,22 @@ h4 {
 
 /* Video Section */
 
-.videos{
+.videos {
   padding: 100px 0;
 }
 
-.videos h1{
+.videos h1 {
   text-align: center;
 }
 
-.videos>p{
-  color: #534C64;
+.videos > p {
+  color: #534c64;
   text-align: center;
   font-size: 18px;
-  line-height: 30px; 
+  line-height: 30px;
 }
 
-.video-container{
+.video-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -205,12 +205,12 @@ h4 {
   width: 230px;
 }
 
-.video img{
+.video img {
   width: 100%;
 }
 
-.video p{
-  color: #534C64;
+.video p {
+  color: #534c64;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -226,21 +226,104 @@ h4 {
   padding: 60px 0px;
 }
 
-.play-description{
+.play-description {
   max-width: 360px;
 }
 
-.games{
+.games {
   width: 634px;
 }
 
-.game-1{
+.game-1 {
   width: 100%;
 }
 
-.game-2{
+.game-2 {
   position: relative;
   width: 150px;
   margin-top: -130px;
   margin-left: -60px;
+}
+
+/* Games Collection Section */
+
+/* .all-button{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center; 
+} */
+
+.row1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.games-collection button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+button p {
+  color: #0b0223;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Footer Section */
+
+footer{
+  text-align: center;
+  padding: 120px;
+  background: #0B0223;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 86px;
+  height: 40px;
+}
+
+.logo h2{
+  color: #FFF;
+  font-size: 2.8rem;
+  font-weight: 700; 
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.essential-links a,
+.social-icons a{
+  color: #FFF;
+  margin-right: 40px;
+}
+
+.social-icons{
+  margin: 50px auto;
+}
+
+.policy a{
+  color: rgba(255, 255, 255, 0.60);
+  margin-right: 30px;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.60);
 }
