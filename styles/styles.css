@@ -247,7 +247,7 @@ h4 {
 
 /* Games Collection Section */
 
-.all-button{
+.all-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +256,6 @@ h4 {
   padding: 100px 100px;
 }
 
-
 .games-collection button {
   display: flex;
   justify-content: center;
@@ -264,7 +263,7 @@ h4 {
   gap: 10px;
   padding: 5px 15px;
   border-radius: 50px;
-  border:2px solid #FFF;
+  border: 2px solid #fff;
 }
 
 button p {
@@ -273,20 +272,20 @@ button p {
   font-weight: 600;
 }
 
-.all-button button:hover{
-    border: 2px solid pink;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.all-button button:hover {
+  border: 2px solid pink;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Footer Section */
 
-footer{
+footer {
   text-align: center;
   padding: 120px;
-  background: #0B0223;
+  background: #0b0223;
 }
 
 .logo,
@@ -300,34 +299,34 @@ footer{
   gap: 30px;
 }
 
-.logo img{
+.logo img {
   width: 86px;
   height: 40px;
 }
 
-.logo h2{
-  color: #FFF;
+.logo h2 {
+  color: #fff;
   font-size: 2.8rem;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-footer a{
+footer a {
   text-decoration: none;
 }
 
 .essential-links a,
-.social-icons a{
-  color: #FFF;
+.social-icons a {
+  color: #fff;
 }
 
-.social-icons{
+.social-icons {
   margin: 50px auto;
 }
 
-.policy a{
-  color: rgba(255, 255, 255, 0.60);
+.policy a {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.copyright{
-  color: rgba(255, 255, 255, 0.60);
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
 }
