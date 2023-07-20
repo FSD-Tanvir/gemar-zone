@@ -1,6 +1,15 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     width: 95vw;
+  }
+  .all-button{
+    padding: 50px 10px;
   }
 }
 
@@ -23,6 +32,12 @@
   }
   .banner-img {
     width: 50%;
+  }
+  .video-container{
+    gap: 20px;
+  }
+  footer{
+    padding: 120px 20px;
   }
 }
 
